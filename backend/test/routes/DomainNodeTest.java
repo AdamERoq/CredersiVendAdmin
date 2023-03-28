@@ -106,6 +106,7 @@ public class DomainNodeTest {
 	}
 	
 	
+	
 	@Test // DN-013
 	public void constructorTest() {
 		DomainNode myNode = new DomainNode();

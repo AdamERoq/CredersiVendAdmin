@@ -12,6 +12,7 @@ import com.credersi_vend.routes.rels.OwnsRel;
 public class OwnsRelTest {
 	
 	
+	
 	@Test // ORL-001
 	public void getLabelTest() {
 		OwnsRel myRel = new OwnsRel();

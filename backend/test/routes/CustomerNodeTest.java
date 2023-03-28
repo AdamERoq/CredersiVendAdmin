@@ -36,6 +36,7 @@ public class CustomerNodeTest {
 	}
 	
 	
+	
 	@Test // CN-004
 	public void constructorTest() {
 		CustomerNode myNode = new CustomerNode();

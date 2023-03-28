@@ -16,6 +16,7 @@ public class DomainRequestTest {
 		assertEquals("1", myRequest.getEnvironment());
 	}
 	
+	
 	@Test // DR-002
 	public void getEnvironmentTest2() {
 		DomainRequest myRequest = new DomainRequest();

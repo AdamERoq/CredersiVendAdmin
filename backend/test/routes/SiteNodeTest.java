@@ -142,6 +142,7 @@ public class SiteNodeTest {
 	}
 	
 	
+	
 	@Test // SN-017
 	public void constructorTest2() {
 		String myUUID = "9dcfc8d1-e8dd-4728-854c-dda85a1c142e";

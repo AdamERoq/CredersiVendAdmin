@@ -61,6 +61,7 @@ public class MachineRequestTest {
 	}
 	
 	
+	
 	@Test // MR-009
 	public void setDirectionsTest() {
 		MachineRequest myRequest = new MachineRequest();

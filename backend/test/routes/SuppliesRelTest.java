@@ -12,6 +12,8 @@ import com.credersi_vend.routes.rels.SuppliesRel;
 public class SuppliesRelTest {
 
 	
+	
+	
 	@Test // SRL-001
 	public void getLabelTest() {
 		SuppliesRel myRel = new SuppliesRel();
