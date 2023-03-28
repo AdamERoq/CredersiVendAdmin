@@ -56,9 +56,7 @@ public class SiteRequestTest {
 		assertEquals("1 test", myRequest.getAddress());
 	}
 	
-	// SR-008
-	
-	@Test // SR-009
+	@Test // SR-008
 	public void setNameTest() {
 		SiteRequest myRequest = new SiteRequest();
 		assertEquals(null, myRequest.getName());
@@ -66,9 +64,7 @@ public class SiteRequestTest {
 		assertEquals("Test", myRequest.getName());
 	}
 	
-	// SR-010
-	
-	@Test // SR-011
+	@Test // SR-09
 	public void setUUIDTest() {
 		String myUUID = "774bc7a1-0ce0-42ee-8276-5818562ad4a1";
 		
@@ -77,7 +73,6 @@ public class SiteRequestTest {
 		myRequest.setUuid(UUID.fromString(myUUID));
 		assertEquals("774bc7a1-0ce0-42ee-8276-5818562ad4a1", myRequest.getUuid().toString());
 	}
-	
-	// SR-012
+
 
 }

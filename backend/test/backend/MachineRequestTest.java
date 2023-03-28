@@ -67,10 +67,8 @@ public class MachineRequestTest {
 		myRequest.setDirections("right");
 		assertEquals("right", myRequest.getDirections());
 	}
-	
-	// MR-010
 
-	@Test // MR-011
+	@Test // MR-010
 	public void setLocationTest() {
 		MachineRequest myRequest = new MachineRequest();
 		assertEquals(null, myRequest.getLocation());
@@ -78,9 +76,7 @@ public class MachineRequestTest {
 		assertEquals("Test", myRequest.getLocation());
 	}
 	
-	// MR-012
-	
-	@Test // MR-013
+	@Test // MR-011
 	public void setNameTest() {
 		MachineRequest myRequest = new MachineRequest();
 		assertEquals(null, myRequest.getName());
@@ -88,9 +84,7 @@ public class MachineRequestTest {
 		assertEquals("Test", myRequest.getName());
 	}
 	
-	// MR-014
-	
-	@Test // MR-015
+	@Test // MR-012
 	public void setUUIDTest() {
 		String myUUID = "6788d6cb-ca3a-47d1-ba8e-1935c4c80743";
 		
@@ -99,7 +93,5 @@ public class MachineRequestTest {
 		myRequest.setUuid(UUID.fromString(myUUID));
 		assertEquals("6788d6cb-ca3a-47d1-ba8e-1935c4c80743", myRequest.getUuid().toString());
 	}
-	
-	// MR-016
 
 }

@@ -2,6 +2,8 @@ package backend;
 
 import static org.junit.Assert.*;
 
+// route.db.pw=7vXNfKSO85ORF4_5DYHQZCl1ioE32rkJwE6zzjNUvH8 // Component Test password
+
 import java.util.UUID;
 
 import org.junit.Test;
@@ -44,9 +46,7 @@ public class CustomerRequestTest {
 		assertEquals("Test", myRequest.getName());
 	}
 	
-	// CR-006
-	
-	@Test // CR-007
+	@Test // CR-006
 	public void setUUIDTest() {
 		String myUUID = "774bc7a1-0ce0-42ee-8276-5818562ad4a3";
 		
@@ -55,6 +55,4 @@ public class CustomerRequestTest {
 		myRequest.setUuid(UUID.fromString(myUUID));
 		assertEquals("774bc7a1-0ce0-42ee-8276-5818562ad4a3", myRequest.getUuid().toString());
 	}
-	
-	// CR-008
 }

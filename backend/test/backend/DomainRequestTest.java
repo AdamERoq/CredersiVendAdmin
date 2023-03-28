@@ -46,39 +46,12 @@ public class DomainRequestTest {
 		assertEquals("5", myRequest.getEnvironment());
 	}
 	
-//	@Test(expected = Exception.class) // DR-006
-//	public void setEnvironmentTest2() throws Exception {
-//		DomainRequest myRequest = new DomainRequest();
-//		assertEquals(null, myRequest.getEnvironment());
-//		
-////		try {
-////			myRequest.setEnvironment(5);
-////		} catch (Exception e){
-////			System.out.println(e.getMessage());
-////		}
-//		
-//		myRequest.setEnvironment(5);
-//		assertEquals(5, Integer.parseInt(myRequest.getEnvironment()));
-//		
-//		
-//		
-//		//assertThrows(, myRequest.setEnvironment(5));
-//	
-//
-//		// try to set environment to 5
-//		// throw
-//		// try getting environment to check it
-//		
-//	}
-	
-	@Test // DR-007
+	@Test // DR-006
 	public void setNameTest() {
 		DomainRequest myRequest = new DomainRequest();
 		assertEquals(null, myRequest.getEnvironment());
 		myRequest.setName("Test");
 		assertEquals("Test", myRequest.getName());
 	}
-	
-	// DR-008
 
 }
