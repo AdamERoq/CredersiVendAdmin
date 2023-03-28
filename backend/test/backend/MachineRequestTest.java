@@ -60,6 +60,7 @@ public class MachineRequestTest {
 		assertEquals(null, myRequest.getUuid());
 	}
 	
+	
 	@Test // MR-009
 	public void setDirectionsTest() {
 		MachineRequest myRequest = new MachineRequest();

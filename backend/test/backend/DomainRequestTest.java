@@ -9,9 +9,6 @@ import org.junit.rules.ExpectedException;
 import com.credersi_vend.backend.routes.nodes.DomainRequest;
 
 public class DomainRequestTest {
-	
-	@Rule
-	public ExpectedException thrown = ExpectedException.none();
 
 	@Test // DR-001
 	public void getEnvironmentTest() {

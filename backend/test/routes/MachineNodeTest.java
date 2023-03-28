@@ -83,6 +83,7 @@ public class MachineNodeTest extends MachineNode {
 		assertEquals(null, anotherNode.getUuid());
 	}
 	
+	
 	@Test // MN-010
 	public void anotherTest2() {
 		String myUUID = "65b79d67-d830-40ac-a135-dd135bf993e5";

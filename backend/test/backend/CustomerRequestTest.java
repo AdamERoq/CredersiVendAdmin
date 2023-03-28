@@ -18,6 +18,7 @@ public class CustomerRequestTest {
 		assertEquals("TestCustomer", myRequest.getName());
 	}
 	
+	
 	@Test // CR-002	
 	public void getNameTest2() {
 		CustomerRequest myRequest = new CustomerRequest();

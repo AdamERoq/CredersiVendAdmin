@@ -77,6 +77,7 @@ public class RouteRelTest {
 		assertEquals(defaultJson, myRel.toJson());
 	}
 	
+	
 	@Test // RRL-009
 	public void setPropTest3() {
 		RouteRel myRel = new RouteRel();

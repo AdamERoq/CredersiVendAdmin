@@ -35,6 +35,7 @@ public class CustomerNodeTest {
 		assertEquals("myCustomer", myNode.getName());
 	}
 	
+	
 	@Test // CN-004
 	public void constructorTest() {
 		CustomerNode myNode = new CustomerNode();

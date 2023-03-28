@@ -105,6 +105,7 @@ public class DomainNodeTest {
 		assertEquals(updatedJson, myNode.toJson());
 	}
 	
+	
 	@Test // DN-013
 	public void constructorTest() {
 		DomainNode myNode = new DomainNode();
